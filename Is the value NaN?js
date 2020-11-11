@@ -1,0 +1,13 @@
+
+Is the value NaN?
+ Write a function isArgNaN that checks if the value argument contains NaN.
+
+ If the argument is NaN, return NaN.
+
+ Otherwise, return the value of value.
+ function isArgNaN(value){
+  if (isNaN(value) )return NaN; 
+  else if (value === NaN ) return false;
+  else return value;
+ }
+ console.log(isArgNaN('abc'));
