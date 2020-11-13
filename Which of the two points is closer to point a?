@@ -1,0 +1,21 @@
+
+Which of the two points is closer to point a?
+// Three points a, b, c with different coordinates lie on the number axis.
+// Determine which of the two points, b or c, is closer to point a.
+// Write a function named nearestPoint that takes three numbers a, b, c
+// (coordinates of three points on the numeric axis) as arguments and returns:
+
+// string "b", if point b is closer to point a,
+// string "c", if point c is closer to point a,
+// the string "distances are equal" if the distances from points b and c to point a are equal.
+///////////////////////////////////////////////////////////////////////////////////////////////
+function nearestPoint(a, b, c){
+  let dif1 = b - a;
+  dif1 = Math.abs(dif1);
+  let dif2 = c - a;
+  dif2 = Math.abs(dif2)
+  
+if (dif1 < dif2) return 'b';
+  else if ( dif1> dif2)return 'c';
+  else if( dif1=== dif2) return "distances are equal";
+}
