@@ -1,0 +1,7 @@
+function oppositeArray(arr){
+let opposArr = [];
+for ( let i = 0; i < arr.length; i ++){
+opposArr.push(-arr[i]);
+}
+return opposArr;
+}
