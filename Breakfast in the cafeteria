@@ -1,0 +1,24 @@
+ Breakfast in the cafeteria
+
+// The 30-storey building has two cafeterias located on floors n and m.
+
+// The cafeteria on floor n is called "Nonstop", the cafeteria on floor m is called "Merci".
+
+// You work on floor x and want to have breakfast at the nearest cafeteria. Which cafeteria
+// will you go to?
+
+// Write a function named nearestCafe that takes three different numbers x, n, m as arguments
+// (x is the floor where you are; n, m are the floors where the cafeterias are located) and 
+// returns the name of the nearest cafeteria. If the number
+// of floors to the cafeterias is the same, you prefer to have breakfast in the "Merci" cafe
+/*
+function nearestCafe(x, n, m){
+let dif1 = n - x;
+let dif2 = m - x;
+  dif1 = Math.abs(dif1);
+  dif2 = Math.abs(dif2);
+if ( dif1 < dif2) return "Nonstop";
+else if ( dif1 > dif2) return "Merci";
+else if ( dif1 === dif2) return "Merci";
+}
+console.log(nearestCafe(19, 11, 3));
