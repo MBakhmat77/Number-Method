@@ -1,0 +1,12 @@
+ Expression with module or absolute number
+// Write a function named expressionValue that takes three numbers a, b, c
+// as arguments and returns the absolute value of the expression:
+/*function expressionValue(a, b, c){
+let x = a-c;
+let y = b-c;
+let z = a + b + c;
+let expValue = (Math.abs(x) + Math.abs(y) )/Math.abs(z);
+expValue =+expValue.toFixed(2);
+return expValue;
+}
+console.log(expressionValue(-1, -2, -5));
