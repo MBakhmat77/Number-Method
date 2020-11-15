@@ -1,0 +1,18 @@
+ Exponent of array elements
+// Given an array arr. Modify the elements of the array to square each even element
+// and cube each odd element.
+// Write a function named powerArray that takes an array arr, squares every even 
+// element, every odd element to 
+// a cube, and returns a modified array.
+////////////////////////////////////////////////////////////////////////
+function powerArray(arr){
+let Arr = [];
+let a;
+for (let i = 0; i< arr.length; i++){
+if ( arr[i] % 2 === 0)  a = Math.pow(arr[i],2);
+else if (arr[i] % 2 !== 0) a = Math.pow(arr[i],3);
+  Arr.push(a);
+}
+return Arr;
+}
+console.log(powerArray([1,2,4,5,7,8]));
