@@ -1,0 +1,11 @@
+Maximum and minimum value in an array
+// Write a function maxMin that takes arr as arguments and returns an array,
+// containing the maximum and minimum value: [max, min]. If the array is empty, return [].
+/ *
+function maxMin (arr) {
+let min = Math.min (... arr);
+let max = Math.max (... arr);
+if (min === Infinity) return [];
+else if (max === -Infinity) return [];
+return [max, min];
+}
