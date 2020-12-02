@@ -1,0 +1,15 @@
+ Maximum negative element in the array
+// Write a maxNegative function that takes the arr array as an argument and returns the maximum
+// negative element in the array. If arr contains no negative elements, return null.
+/ *
+function maxNegative (arr) {
+let neg = [];
+for (let i = 0; i <arr.length; i ++) {
+if (arr [i] <0)
+neg.push (arr [i]);
+}
+let maxneg = Math.max (... neg);
+if (maxneg === Infinity) return null;
+if (maxneg === -Infinity) return null;
+return maxneg;
+}
