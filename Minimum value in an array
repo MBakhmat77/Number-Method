@@ -1,0 +1,10 @@
+
+Minimum value in an array
+// Write a min function that takes arr as an argument and returns
+// the minimum element of this array. If the array is empty, the function should return [].
+//////////////////////////////////////////////////////////////////////////////////////////
+function min(arr){
+let min = Math.min(...arr);
+if ( min == Infinity) return [];
+else return min;
+}
