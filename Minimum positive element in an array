@@ -1,0 +1,12 @@
+
+Minimum positive element in an array
+// Write a minPositive function that takes arr as an argument and returns the minimum
+// positive element in the array. If arr contains no positive elements, return null.
+///////////////////////////////////////////////////////////////////////////////
+function minPositive(arr){  
+let minPositive; 
+ let difArr = [];
+for ( let el of arr){
+  if ( el > 0)
+  difArr.push(el);
+  }
