@@ -1,0 +1,22 @@
+
+Random phone number.
+// When testing the user registration page, you need to test the "Phone number" field. You need
+// do lots of tests and you decide to generate random phone numbers - 11-digit numbers.
+// The phone number must start with the "+" character, the first digit of the number must be 1.
+// Write a function called createPhoneNumber that returns a random phone number as a string
+// length 12, starting with '+1', and random digits.
+// Indication.
+// Create a string containing the first two characters: '+1'.
+// Create a loop that runs 10 times.
+// In the body of the loop, get a random number between 0 and 9 and add that number to the string.
+////////////////////////////////////////////////////////////////////////////////////////////////////
+function createPhoneNumber () {
+let str = '+1';
+let sum;
+let ran;
+for (let i = 1; i <= 10; i ++) {
+ren = Math.floor (Math.random () * 10);
+ sum = str + ran;
+}
+return sum;
+}
