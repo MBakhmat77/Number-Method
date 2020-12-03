@@ -1,0 +1,10 @@
+
+Random integer from min to max
+// Write a function named integerFromMinToMax that takes two positive integers min, max (min <max)
+// as arguments and returns a random number from min (inclusive) to max (inclusive).
+function integerFromMinToMax (min, max) {
+max = Math.floor (max);
+min = Math.ceil (min);
+let ran = Math.floor (Math.random () * (max - min + 1) + min);
+return ran;
+}
