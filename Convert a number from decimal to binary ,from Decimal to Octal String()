@@ -1,0 +1,16 @@
+
+Convert a number from decimal to binary String()
+// Write a function named numToBinary that accepts a positive decimal integer
+// number num as an argument and returns this number in binary notation.
+///////////////////////////////////////////////////////////////////////////
+function numToBinary (num) {
+return Number ((num) .toString (2));
+}
+//////////////////////////////////////////////////////////////////////////
+
+Convert a number from Decimal to Octal
+Write a function named numToOctal that takes a positive decimal integer num
+as an argument and returns this octal number.
+function numToOctal (num) {
+return + (num) .toString (8);
+}
